@@ -1,5 +1,5 @@
 const Trend = () => (
-    <div>
+    <div className="text-center">
       <button className="btn-blue">Trend got works!</button>
     </div>
   );

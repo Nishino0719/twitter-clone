@@ -1,5 +1,6 @@
 import { useRouter } from "next/router";
 import { useEffect, useState } from "react";
+import Sidebar from "../components/sidebar";
 
 export default function UserShow() {
   const router = useRouter();
@@ -22,14 +23,20 @@ export default function UserShow() {
   }, [user]);
   if (canShow && user) {
     return (
-      <div>
+      <div className="flex">
+          <Sidebar></Sidebar>
+          <div className="">
         <button className="btn-blue">{router.query.user} got works!</button>
+          </div>
       </div>
     );
   } else {
     return (
-      <div>
+      <div className="flex">
+        <Sidebar></Sidebar>
+        <div className="">
         <button className="btn-blue">Sorry, that page doesn’t exist!</button>
+        </div>
       </div>
     );
   }

@@ -1,6 +1,15 @@
 @tailwind base;
 @tailwind components;
 .btn-blue {
-  @apply bg-blue-500 text-white font-bold py-2 px-4 rounded m-3;
+  @apply bg-blue-400 text-white font-bold py-2 px-4 rounded-3xl m-3 w-52;
+}
+
+.side-bar__content{
+  @apply flex text-left ml-40 rounded-xl p-2 hover:bg-blue-50 hover:text-blue-500 w-40;
+}
+*{
+  margin:0;
+  padding:0;
+    outline: 1px solid rgb(238, 216, 245);
 }
 @tailwind utilities;
