@@ -4,12 +4,12 @@
   @apply bg-blue-400 text-white font-bold py-2 px-4 rounded-3xl m-3 w-52;
 }
 
-.side-bar__content{
-  @apply flex text-left ml-40 rounded-xl p-2 hover:bg-blue-50 hover:text-blue-500 w-40;
+.side-bar__content {
+  @apply flex text-left ml-40 mb-2 rounded-3xl p-2 hover:bg-blue-50 stroke-current text-black hover:stroke-current hover:text-blue-500 w-40 cursor-pointer;
 }
-*{
-  margin:0;
-  padding:0;
-    outline: 1px solid rgb(238, 216, 245);
+* {
+  margin: 0;
+  padding: 0;
+  outline: 1px solid rgb(238, 216, 245);
 }
 @tailwind utilities;
