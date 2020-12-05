@@ -1,13 +1,13 @@
 const Timeline = () => (
   <div className="text-center container">
-    <div className="timeline-header flex relative">
-      <h2 className="font-bold absolute left-8">ホーム</h2>
+    <div className="timeline-header flex relative divide-solid">
+      <h2 className="font-bold absolute left-3">ホーム</h2>
       <svg
         xmlns="http://www.w3.org/2000/svg"
         fill="none"
         viewBox="0 0 24 24"
         stroke="#55acee"
-        className=" w-6 absolute right-8"
+        className=" w-6 absolute right-3"
       >
         <path
           strokeLinecap="round"
