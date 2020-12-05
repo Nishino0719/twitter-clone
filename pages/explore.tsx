@@ -1,7 +1,11 @@
+import Sidebar from "../components/sidebar";
+import Trend from "../components/trend";
+
 export default function Explore() {
-    return (
-      <div>
-        <button className="btn-blue">Explore got works!</button>
-      </div>
-    )
-  }
+  return (
+    <div className="flex">
+      <Sidebar></Sidebar>
+      <h1>Explore</h1>
+    </div>
+  );
+}
