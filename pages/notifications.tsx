@@ -6,8 +6,8 @@ export default function Notification() {
   return (
     <div className="flex">
       <Sidebar></Sidebar>
-      <h1>Notification</h1>
       <Timeline></Timeline>
+      <Trend></Trend>
     </div>
   );
 }

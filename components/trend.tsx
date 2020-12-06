@@ -1,6 +1,7 @@
 const Trend = () => (
-  <div className="text-center w-96 mt-4 ml-5 md:block hidden">
-    <div className="flex items-center justify-center">
+  <div className="text-center w-96 mt-4 mx-2 lg:block hidden relative">
+    <div className=" absolute left-0">
+    <div className="flex left-0">
       <form method="GET">
         <div className="relative text-gray-400 focus-within:text-gray-400">
           <span className="absolute inset-y-0 left-0 flex items-center pl-2">
@@ -13,7 +14,7 @@ const Trend = () => (
                 fill="none"
                 viewBox="0 0 24 24"
                 stroke="currentColor"
-                className="w-5 h-5 stroke-current text-gray-500 focus:stroke-current focus:text-blue-400"
+                className="w-5 h-5 stroke-current text-gray-500"
               >
                 <path
                   strokeLinecap="round"
@@ -26,12 +27,13 @@ const Trend = () => (
           </span>
           <input
             type="search"
-            className=" border-blue-400 py-2 w-72 text-sm text-white bg-gray-200 rounded-full pl-10 focus:outline-none focus:bg-white focus:text-gray-900"
+            className=" border-blue-400 py-2 w-72 text-sm text-white bg-gray-200 rounded-full pl-10 focus:border-blue-400 focus:bg-white focus:text-gray-900"
             placeholder="キーワード検索"
             autoComplete="off"
           />
         </div>
       </form>
+    </div>
     </div>
   </div>
 );

@@ -1,5 +1,5 @@
 const Timeline = () => (
-  <div className="text-center container border-l border-r max-w-screen-sm w-full bg-blue-100">
+  <div className="text-center container border-l border-r max-w-screen-sm w-full">
     <div className="timeline-header flex relative mt-4 border-b pb-10">
       <h2 className="font-bold absolute left-3">ホーム</h2>
       <svg

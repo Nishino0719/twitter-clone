@@ -26,9 +26,6 @@ export default function UserShow() {
     return (
       <div className="flex">
         <Sidebar></Sidebar>
-        <div className="">
-          <button className="btn-blue">{router.query.user} got works!</button>
-        </div>
         <Timeline></Timeline>
       </div>
     );

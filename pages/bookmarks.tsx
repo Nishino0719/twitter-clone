@@ -7,7 +7,7 @@ export default function Bookmarks() {
     <div className="flex">
       <Sidebar></Sidebar>
       <Timeline></Timeline>
-            <Trend></Trend>
+      <Trend></Trend>
     </div>
   );
 }
