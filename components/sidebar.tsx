@@ -59,9 +59,9 @@ export default function Sidebar() {
             </svg>
           )}
           {home ? (
-            <h2 className="font-bold text-blue-400">ホーム</h2>
+            <h2 className="font-bold text-blue-400 mt-1">ホーム</h2>
           ) : (
-            <h2 className="font-bold">ホーム</h2>
+            <h2 className="font-bold mt-1">ホーム</h2>
           )}
         </div>
       </Link>
@@ -98,9 +98,9 @@ export default function Sidebar() {
             </svg>
           )}
           {explore ? (
-            <h2 className="font-bold text-blue-400">話題を検索</h2>
+            <h2 className="font-bold text-blue-400 mt-1">話題を検索</h2>
           ) : (
-            <h2 className="font-bold">話題を検索</h2>
+            <h2 className="font-bold mt-1">話題を検索</h2>
           )}
         </div>
       </Link>
@@ -137,9 +137,9 @@ export default function Sidebar() {
             </svg>
           )}
           {notification ? (
-            <h2 className="font-bold text-blue-400">通知</h2>
+            <h2 className="font-bold text-blue-400 mt-1">通知</h2>
           ) : (
-            <h2 className="font-bold">通知</h2>
+            <h2 className="font-bold mt-1">通知</h2>
           )}
         </div>
       </Link>
@@ -176,9 +176,9 @@ export default function Sidebar() {
             </svg>
           )}
           {message ? (
-            <h2 className="font-bold text-blue-400">メッセージ</h2>
+            <h2 className="font-bold text-blue-400 mt-1">メッセージ</h2>
           ) : (
-            <h2 className="font-bold">メッセージ</h2>
+            <h2 className="font-bold mt-1">メッセージ</h2>
           )}
         </div>
       </Link>
@@ -215,9 +215,9 @@ export default function Sidebar() {
             </svg>
           )}
           {bookmark ? (
-            <h2 className="font-bold text-blue-400">ブックマーク</h2>
+            <h2 className="font-bold text-blue-400 mt-1">ブックマーク</h2>
           ) : (
-            <h2 className="font-bold">ブックマーク</h2>
+            <h2 className="font-bold mt-1">ブックマーク</h2>
           )}
         </div>
       </Link>
@@ -254,9 +254,9 @@ export default function Sidebar() {
             </svg>
           )}
           {lists ? (
-            <h2 className="font-bold text-blue-400">リスト</h2>
+            <h2 className="font-bold text-blue-400 mt-1">リスト</h2>
           ) : (
-            <h2 className="font-bold">リスト</h2>
+            <h2 className="font-bold mt-1">リスト</h2>
           )}
         </div>
       </Link>
@@ -294,9 +294,9 @@ export default function Sidebar() {
           )}
 
           {user ? (
-            <h2 className="font-bold text-blue-400">プロフィール</h2>
+            <h2 className="font-bold text-blue-400 mt-1">プロフィール</h2>
           ) : (
-            <h2 className="font-bold">プロフィール</h2>
+            <h2 className="font-bold mt-1">プロフィール</h2>
           )}
         </div>
       </Link>
@@ -314,9 +314,34 @@ export default function Sidebar() {
             d="M8 12h.01M12 12h.01M16 12h.01M21 12a9 9 0 11-18 0 9 9 0 0118 0z"
           />
         </svg>
-        <h2 className="font-bold">その他</h2>
+        <h2 className="font-bold mt-1">その他</h2>
       </div>
       <button className="btn-blue hover:bg-blue-500 ml-40 mt-5">Tweet</button>
+      <div className="side-bar__content absolute bottom-2 w-56">
+        <img
+          src="https://pbs.twimg.com/profile_images/1238812638387163136/xVj9-uVR_400x400.jpg"
+          className="w-10 h-10 rounded-full"
+          alt=""
+        />
+        <div className="user-info ml-2">
+          <h3 className="font-bold text-sm">SHA256</h3>
+          <h4 className=" opacity-50">@func_of_hash</h4>
+        </div>
+        <svg
+          xmlns="http://www.w3.org/2000/svg"
+          fill="none"
+          viewBox="0 0 24 24"
+          stroke="black"
+          className="absolute right-1 w-5 mt-3"
+        >
+          <path
+            strokeLinecap="round"
+            strokeLinejoin="round"
+            strokeWidth={1.5}
+            d="M5 12h.01M12 12h.01M19 12h.01M6 12a1 1 0 11-2 0 1 1 0 012 0zm7 0a1 1 0 11-2 0 1 1 0 012 0zm7 0a1 1 0 11-2 0 1 1 0 012 0z"
+          />
+        </svg>
+      </div>
     </div>
   );
 }

@@ -10,6 +10,6 @@
 * {
   margin: 0;
   padding: 0;
-  outline: 1px solid rgb(238, 216, 245);
+  /* outline: 1px solid rgb(238, 216, 245); */
 }
 @tailwind utilities;
