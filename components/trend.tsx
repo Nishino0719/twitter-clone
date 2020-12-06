@@ -1,6 +1,6 @@
 const Trend = () => (
-  <div className="text-center w-96 mt-4 mx-2 lg:block hidden relative">
-    <div className=" absolute left-0">
+  <div className="text-center w-96 mt-4 mx-2 lg:block hidden">
+    <div className="left-0">
     <div className="flex left-0">
       <form method="GET">
         <div className="relative text-gray-400 focus-within:text-gray-400">
