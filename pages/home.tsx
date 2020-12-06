@@ -4,7 +4,7 @@ import Trend from "../components/trend";
 
 export default function Home() {
     return (
-      <div className="overflow-y-scroll overflow-x-auto flex">
+      <div className="overflow-y-scroll overflow-x-auto flex mx-auto">
         <Sidebar></Sidebar>
         <Timeline></Timeline>
         <Trend></Trend>

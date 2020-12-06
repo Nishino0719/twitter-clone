@@ -1,5 +1,5 @@
 const Trend = () => (
-  <div className="text-center mr-40 mt-4 ml-5">
+  <div className="text-center w-96 mt-4 ml-5 md:block hidden">
     <div className="flex items-center justify-center">
       <form method="GET">
         <div className="relative text-gray-400 focus-within:text-gray-400">
