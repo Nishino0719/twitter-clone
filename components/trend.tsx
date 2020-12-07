@@ -1,5 +1,5 @@
 const Trend = () => (
-  <div className="text-center w-96 mt-4 mx-2 lg:block hidden">
+  <div className="text-center  mt-4 px-2 lg:block hidden">
     <div className="left-0">
     <div className="flex left-0">
       <form method="GET">
@@ -27,7 +27,7 @@ const Trend = () => (
           </span>
           <input
             type="search"
-            className=" border-blue-400 py-2 w-72 text-sm text-white bg-gray-200 rounded-full pl-10 focus:border-blue-400 focus:bg-white focus:text-gray-900"
+            className=" border-blue-400 py-2 w-64 xl:w-72 text-sm text-white bg-gray-200 rounded-full pl-10 focus:border-blue-400 focus:bg-white focus:text-gray-900"
             placeholder="キーワード検索"
             autoComplete="off"
           />

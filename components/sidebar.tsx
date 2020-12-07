@@ -32,9 +32,8 @@ export default function Sidebar() {
   }, [router]);
 
   return (
-    <div className="container max-w-6xl h-screen xl:w-96 md:w-28 w-16 text-right relative px-1 xl:mr-10">
-      <div className="absolute right-0">
-        <div className="text-left rounded-xl p-1">
+    <div className="container h-screen xl:w-52 md:w-28 w-16 text-right px-1 ml-0">
+        <div className="text-left rounded-xl p-1 w-44 xl:mr-0">
           <Image src="/Twitter_Logo_Blue.png" width="40" height="40"></Image>
         </div>
         <Link href="/home">
@@ -60,11 +59,11 @@ export default function Sidebar() {
               </svg>
             )}
             {home ? (
-              <h2 className="font-bold text-blue-400 mt-1 xl:block hidden xl:pl-5">
+              <h2 className="font-bold text-blue-400 mt-1 xl:block hidden">
                 ホーム
               </h2>
             ) : (
-              <h2 className="font-bold mt-1 xl:block hidden xl:pl-5">ホーム</h2>
+              <h2 className="font-bold mt-1 xl:block hidden">ホーム</h2>
             )}
           </div>
         </Link>
@@ -101,11 +100,11 @@ export default function Sidebar() {
               </svg>
             )}
             {explore ? (
-              <h2 className="font-bold text-blue-400 mt-1 xl:block hidden xl:pl-5">
+              <h2 className="font-bold text-blue-400 mt-1 xl:block hidden">
                 話題を検索
               </h2>
             ) : (
-              <h2 className="font-bold mt-1 xl:block hidden xl:pl-5">話題を検索</h2>
+              <h2 className="font-bold mt-1 xl:block hidden">話題を検索</h2>
             )}
           </div>
         </Link>
@@ -142,11 +141,11 @@ export default function Sidebar() {
               </svg>
             )}
             {notification ? (
-              <h2 className="font-bold text-blue-400 mt-1 xl:block hidden xl:pl-5">
+              <h2 className="font-bold text-blue-400 mt-1 xl:block hidden">
                 通知
               </h2>
             ) : (
-              <h2 className="font-bold mt-1 xl:block hidden xl:pl-5">通知</h2>
+              <h2 className="font-bold mt-1 xl:block hidden">通知</h2>
             )}
           </div>
         </Link>
@@ -183,11 +182,11 @@ export default function Sidebar() {
               </svg>
             )}
             {message ? (
-              <h2 className="font-bold text-blue-400 mt-1 xl:block hidden xl:pl-5">
+              <h2 className="font-bold text-blue-400 mt-1 xl:block hidden">
                 メッセージ
               </h2>
             ) : (
-              <h2 className="font-bold mt-1 xl:block hidden xl:pl-5">メッセージ</h2>
+              <h2 className="font-bold mt-1 xl:block hidden">メッセージ</h2>
             )}
           </div>
         </Link>
@@ -224,11 +223,11 @@ export default function Sidebar() {
               </svg>
             )}
             {bookmark ? (
-              <h2 className="font-bold text-blue-400 mt-1 xl:block hidden xl:pl-5">
+              <h2 className="font-bold text-blue-400 mt-1 xl:block hidden">
                 ブックマーク
               </h2>
             ) : (
-              <h2 className="font-bold mt-1 xl:block hidden xl:pl-5">ブックマーク</h2>
+              <h2 className="font-bold mt-1 xl:block hidden">ブックマーク</h2>
             )}
           </div>
         </Link>
@@ -265,11 +264,11 @@ export default function Sidebar() {
               </svg>
             )}
             {lists ? (
-              <h2 className="font-bold text-blue-400 mt-1 xl:block hidden xl:pl-5">
+              <h2 className="font-bold text-blue-400 mt-1 xl:block hidden">
                 リスト
               </h2>
             ) : (
-              <h2 className="font-bold mt-1 xl:block hidden xl:pl-5">リスト</h2>
+              <h2 className="font-bold mt-1 xl:block hidden">リスト</h2>
             )}
           </div>
         </Link>
@@ -307,11 +306,11 @@ export default function Sidebar() {
             )}
 
             {user ? (
-              <h2 className="font-bold text-blue-400 mt-1 xl:block hidden xl:pl-5">
+              <h2 className="font-bold text-blue-400 mt-1 xl:block hidden">
                 プロフィール
               </h2>
             ) : (
-              <h2 className="font-bold mt-1 xl:block hidden xl:pl-5">プロフィール</h2>
+              <h2 className="font-bold mt-1 xl:block hidden">プロフィール</h2>
             )}
           </div>
         </Link>
@@ -329,10 +328,9 @@ export default function Sidebar() {
               d="M8 12h.01M12 12h.01M16 12h.01M21 12a9 9 0 11-18 0 9 9 0 0118 0z"
             />
           </svg>
-          <h2 className="font-bold mt-1 xl:block hidden xl:pl-5">その他</h2>
+          <h2 className="font-bold mt-1 xl:block hidden">その他</h2>
         </div>
-      </div>
-      <div className="user-content absolute bottom-2 right-0 xl:w-56 w-auto">
+      <div className="user-content relative bottom-2 right-0 xl:w-56 w-auto">
         <img
           src="https://pbs.twimg.com/profile_images/1238812638387163136/xVj9-uVR_400x400.jpg"
           className="w-10 h-10 rounded-full"

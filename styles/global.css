@@ -5,7 +5,7 @@
 }
 
 .side-bar__content {
-  @apply flex text-left mb-2 rounded-3xl p-2 hover:bg-blue-50 stroke-current text-black hover:stroke-current hover:text-blue-500 xl:w-44 w-auto cursor-pointer xl:mr-12;
+  @apply flex text-left mb-2 rounded-3xl p-2 hover:bg-blue-50 stroke-current text-black hover:stroke-current hover:text-blue-500 xl:w-44 w-auto cursor-pointer xl:mr-0;
 }
 
 .user-content{
