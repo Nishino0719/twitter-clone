@@ -32,7 +32,7 @@ export default function Sidebar() {
   }, [router]);
 
   return (
-    <div className="container h-screen xl:w-52 md:w-28 w-16 text-right px-1 ml-0">
+    <div className="container h-screen xl:w-60 md:w-20 w-16 text-right px-1 ml-0 relative">
         <div className="text-left rounded-xl p-1 w-44 xl:mr-0">
           <Image src="/Twitter_Logo_Blue.png" width="40" height="40"></Image>
         </div>
@@ -330,15 +330,15 @@ export default function Sidebar() {
           </svg>
           <h2 className="font-bold mt-1 xl:block hidden">その他</h2>
         </div>
-      <div className="user-content relative bottom-2 right-0 xl:w-56 w-auto">
+        <div className="user-content xl:w-56 w-auto absolute bottom-0">
         <img
           src="https://pbs.twimg.com/profile_images/1238812638387163136/xVj9-uVR_400x400.jpg"
           className="w-10 h-10 rounded-full"
           alt=""
         />
-        <div className="user-info ml-2  xl:block hidden">
+        <div className="user-info ml-2 xl:block hidden">
           <h3 className="font-bold text-sm">SHA256</h3>
-          <h4 className=" opacity-50">@func_of_hash</h4>
+          <h4 className="opacity-50">@func_of_hash</h4>
         </div>
         <svg
           xmlns="http://www.w3.org/2000/svg"
@@ -354,7 +354,7 @@ export default function Sidebar() {
             d="M5 12h.01M12 12h.01M19 12h.01M6 12a1 1 0 11-2 0 1 1 0 012 0zm7 0a1 1 0 11-2 0 1 1 0 012 0zm7 0a1 1 0 11-2 0 1 1 0 012 0z"
           />
         </svg>
-      </div>
+        </div>
     </div>
   );
 }
