@@ -6,7 +6,7 @@ module.exports = {
   },
   variants: {
     extend: {
-
+      opacity: ['disabled'],
       stroke: ['hover', 'focus'],
     },
   },

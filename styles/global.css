@@ -1,7 +1,7 @@
 @tailwind base;
 @tailwind components;
 .btn-blue {
-  @apply bg-blue-400 text-white font-bold py-2 px-4 rounded-3xl m-3 w-52;
+  @apply bg-blue-400 text-white font-bold py-2 xl:py-2 xl:px-4 rounded-full xl:rounded-3xl ml-2 mt-3 xl:w-52 w-10 h-10;
 }
 
 .side-bar__content {
