@@ -1,3 +1,4 @@
+import Card from "../components/card";
 import Recommended from "../components/recommended";
 import Sidebar from "../components/sidebar";
 import Timeline from "../components/timeline";
@@ -20,8 +21,7 @@ export default function Home() {
               <textarea
                 className=" bg-transparent font-medium text-lg w-full outline-none"
                 placeholder="いまどうしてる？"
-              >
-              </textarea>
+              ></textarea>
             </div>
             <div className="flex border-t w-full content-center pt-2 relative">
               <svg
@@ -98,8 +98,9 @@ export default function Home() {
             </div>
           </div>
         </div>
+        <div className="h-2 w-full bg-gray-100 border-b"></div>
+        <Card></Card>
       </div>
-
       <div>
         <Trend></Trend>
         <Recommended></Recommended>
