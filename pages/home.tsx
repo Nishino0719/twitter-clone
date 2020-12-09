@@ -6,11 +6,12 @@ import Trend from "../components/trend";
 
 export default function Home() {
   return (
-    <div className="flex justify-center h-screen overflow-hidden">
+    <div className="flex justify-center h-screen w-screen">
       <Sidebar></Sidebar>
-      <div className="home-content text-center container border-l border-r max-w-screen-sm w-full">
+      <div className="home-content text-center container border-l border-r max-w-screen-sm w-full max-h-screen overflow-scroll">
         <Timeline></Timeline>
-        <div className="border-b flex p-3 h-36">
+
+        <div className="border-b flex p-3 h-44 mt-14">
           <img
             src="https://pbs.twimg.com/profile_images/1238812638387163136/xVj9-uVR_400x400.jpg"
             className="w-12 h-12 rounded-full"
@@ -19,6 +20,7 @@ export default function Home() {
           <div className="w-full">
             <div className="flex-1 px-2 pt-1 mt-1">
               <textarea
+                rows={3}
                 className=" bg-transparent font-medium text-lg w-full outline-none"
                 placeholder="いまどうしてる？"
               ></textarea>
@@ -90,7 +92,7 @@ export default function Home() {
                 />
               </svg>
               <button
-                className="bg-blue-400 text-white font-semibold text-md p-2 rounded-3xl disabled:opacity-60 w-32 absolute right-1"
+                className="bg-blue-400 text-white font-semibold text-md p-2 rounded-3xl disabled:opacity-60 w-32 absolute right-1 pointer-events-none"
                 disabled
               >
                 ツイートする
@@ -99,6 +101,11 @@ export default function Home() {
           </div>
         </div>
         <div className="h-2 w-full bg-gray-100 border-b"></div>
+        <Card></Card>
+        <Card></Card>
+        <Card></Card>
+        <Card></Card>
+        <Card></Card>
         <Card></Card>
       </div>
       <div>
