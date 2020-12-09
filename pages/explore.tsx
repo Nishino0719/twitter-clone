@@ -4,7 +4,7 @@ import Trend from "../components/trend";
 
 export default function Explore() {
   return (
-    <div className="flex">
+    <div className="flex justify-center">
       <Sidebar></Sidebar>
       <Timeline></Timeline>
     </div>

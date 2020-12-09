@@ -5,14 +5,12 @@ import Trend from "../components/trend";
 
 export default function Notification() {
   return (
-    <div className="flex">
+    <div className="flex justify-center">
       <Sidebar></Sidebar>
       <Timeline></Timeline>
-      <div className="relative">
-        <div className="absolute left-0">
-          <Trend></Trend>
-          <Recommended></Recommended>
-        </div>
+      <div>
+        <Trend></Trend>
+        <Recommended></Recommended>
       </div>
     </div>
   );
