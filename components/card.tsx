@@ -1,7 +1,7 @@
 import Link from "next/link";
 
 const Card = () => (
-  <div className="flex container p-4 border-b">
+  <div className="flex container p-4 border-b hover:bg-gray-100 cursor-pointer">
     <img
       src="https://pbs.twimg.com/profile_images/1329647526807543809/2SGvnHYV_400x400.jpg"
       className="w-10 h-10 rounded-full mr-2"
@@ -18,8 +18,7 @@ const Card = () => (
           xmlns="http://www.w3.org/2000/svg"
           fill="none"
           viewBox="0 0 24 24"
-          stroke="black"
-          className="absolute right-1 w-5"
+          className="absolute right-1 w-7 h-7 rounded-full p-1 stroke-current text-black hover:text-blue-400 hover:bg-blue-50 top-0 cursor-pointer"
         >
           <path
             strokeLinecap="round"
@@ -41,7 +40,7 @@ const Card = () => (
             fill="none"
             viewBox="0 0 24 24"
             stroke="currentColor"
-            className="w-6 opacity-50"
+            className="w-8 h-8 rounded-full p-1 stroke-current text-black opacity-50 hover:text-blue-700 hover:bg-blue-100 top-0 cursor-pointer"
           >
             <path
               strokeLinecap="round"
@@ -57,8 +56,7 @@ const Card = () => (
             xmlns="http://www.w3.org/2000/svg"
             fill="none"
             viewBox="0 0 24 24"
-            stroke="currentColor"
-            className="w-6 opacity-50"
+            className="w-8 h-8 rounded-full p-1 stroke-current text-black opacity-50 hover:text-green-800 hover:bg-green-100 top-0 cursor-pointer"
           >
             <path
               strokeLinecap="round"
@@ -74,8 +72,7 @@ const Card = () => (
             xmlns="http://www.w3.org/2000/svg"
             fill="none"
             viewBox="0 0 24 24"
-            stroke="currentColor"
-            className="w-6 opacity-50"
+            className="w-8 h-8 rounded-full p-1 stroke-current text-black opacity-50 hover:text-red-700 hover:bg-red-100 top-0 cursor-pointer"
           >
             <path
               strokeLinecap="round"
@@ -90,8 +87,7 @@ const Card = () => (
           xmlns="http://www.w3.org/2000/svg"
           fill="none"
           viewBox="0 0 24 24"
-          stroke="currentColor"
-          className="w-6 opacity-50"
+          className="w-8 h-8 rounded-full p-1 stroke-current text-black opacity-50 hover:text-blue-700 hover:bg-blue-100 top-0 cursor-pointer"
         >
           <path
             strokeLinecap="round"

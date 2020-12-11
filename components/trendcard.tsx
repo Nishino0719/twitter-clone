@@ -7,8 +7,7 @@ const TrendCard = () => (
             xmlns="http://www.w3.org/2000/svg"
             fill="none"
             viewBox="0 0 24 24"
-            stroke="black"
-            className="absolute right-1 w-5"
+            className="absolute right-1 w-7 h-7 rounded-full p-2 stroke-current text-black hover:text-blue-800 hover:bg-blue-200"
           >
             <path
               strokeLinecap="round"
