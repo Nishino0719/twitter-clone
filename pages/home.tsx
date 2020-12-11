@@ -46,8 +46,8 @@ export default function Home() {
                 className="w-10 h-10 p-2 m-0 cursor-pointer block rounded-full hover:bg-blue-50 stroke-current text-blue-400"
               >
                 <path
-                  stroke-linecap="round"
-                  stroke-linejoin="round"
+                  strokeLinecap="round"
+                  strokeLinejoin="round"
                   strokeWidth={1.3}
                   d="M7 4v16M17 4v16M3 8h4m10 0h4M3 12h18M3 16h4m10 0h4M4 20h16a1 1 0 001-1V5a1 1 0 00-1-1H4a1 1 0 00-1 1v14a1 1 0 001 1z"
                 />
@@ -59,8 +59,8 @@ export default function Home() {
                 className="w-10 h-10 p-2 m-0 cursor-pointer block rounded-full hover:bg-blue-50 stroke-current text-blue-400"
               >
                 <path
-                  stroke-linecap="round"
-                  stroke-linejoin="round"
+                  strokeLinecap="round"
+                  strokeLinejoin="round"
                   strokeWidth={1.3}
                   d="M4 6h16M4 12h16M4 18h7"
                 />
@@ -72,8 +72,8 @@ export default function Home() {
                 className="w-10 h-10 p-2 m-0 cursor-pointer block rounded-full hover:bg-blue-50 stroke-current text-blue-400"
               >
                 <path
-                  stroke-linecap="round"
-                  stroke-linejoin="round"
+                  strokeLinecap="round"
+                  strokeLinejoin="round"
                   strokeWidth={1.3}
                   d="M14.828 14.828a4 4 0 01-5.656 0M9 10h.01M15 10h.01M21 12a9 9 0 11-18 0 9 9 0 0118 0z"
                 />
@@ -85,8 +85,8 @@ export default function Home() {
                 className="w-10 h-10 p-2 m-0 cursor-pointer block rounded-full hover:bg-blue-50 stroke-current text-blue-400"
               >
                 <path
-                  stroke-linecap="round"
-                  stroke-linejoin="round"
+                  strokeLinecap="round"
+                  strokeLinejoin="round"
                   strokeWidth={1.3}
                   d="M8 7V3m8 4V3m-9 8h10M5 21h14a2 2 0 002-2V7a2 2 0 00-2-2H5a2 2 0 00-2 2v12a2 2 0 002 2z"
                 />
