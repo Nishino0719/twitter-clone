@@ -1,6 +1,7 @@
 import { useRouter } from "next/router";
 import { useEffect, useState } from "react";
 import Card from "../components/card";
+import Media from "../components/media";
 import Profile from "../components/profile";
 import Recommended from "../components/recommended";
 import Sidebar from "../components/sidebar";
@@ -48,6 +49,7 @@ export default function UserShow() {
         </div>
         <div>
           <Trend></Trend>
+          <Media></Media>
           <Recommended></Recommended>
         </div>
       </div>
