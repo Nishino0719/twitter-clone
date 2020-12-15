@@ -30,7 +30,7 @@ export default function UserShow() {
     return (
       <div className="flex justify-center h-screen w-screen">
         <Sidebar></Sidebar>
-        <div className="home-content text-center container border-l border-r max-w-screen-sm w-full max-h-screen overflow-scroll">
+        <div className="home-content text-center container border-l border-r max-w-screen-sm w-full max-h-screen overflow-scroll relative">
           <Profile></Profile>
           <div className="mt-14">
             <img
@@ -39,7 +39,21 @@ export default function UserShow() {
               className="w-full"
             />
           </div>
-          <div className="h-2 w-full bg-gray-100 border-b"></div>
+          <div className="w-36 h-36 m-3 bg-white rounded-full absolute top-44">
+            <img
+              src="https://pbs.twimg.com/profile_images/1238812638387163136/xVj9-uVR_400x400.jpg"
+              className="w-32 h-32 rounded-full absolute top-2 left-2"
+              alt=""
+            />
+          </div>
+          <a
+            href="/userr"
+            role="button"
+            className=" font-md text-base p-4 btn-blue rounded-full border-black bg-white text-blue-400 hover:bg-blue-50 text-center"
+          >
+            プロフィールを編集
+          </a>
+          <div className=" h-52 border-b-2"></div>
           <Card></Card>
           <Card></Card>
           <Card></Card>
