@@ -342,13 +342,13 @@ export default function Sidebar() {
       </button>
       <div className="user-content xl:w-56 w-auto absolute bottom-0">
         <img
-          src="https://pbs.twimg.com/profile_images/1238812638387163136/xVj9-uVR_400x400.jpg"
+          src="https://pbs.twimg.com/profile_images/1329647526807543809/2SGvnHYV_400x400.jpg"
           className="w-10 h-10 rounded-full"
           alt=""
         />
         <div className="user-info ml-2 xl:block hidden">
-          <h3 className="font-bold text-sm">SHA256</h3>
-          <h4 className="opacity-50">@func_of_hash</h4>
+          <h3 className="font-bold text-sm">Barack Obama</h3>
+          <h4 className="opacity-50">@BarackObama</h4>
         </div>
         <svg
           xmlns="http://www.w3.org/2000/svg"
