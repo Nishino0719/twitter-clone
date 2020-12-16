@@ -64,7 +64,7 @@ export default function UserShow() {
             </h3>
             <p className="pt-3 pb-0">Dad, husband, President, citizen.</p>
           </div>
-          <div className="flex px-4">
+          <div className="flex px-4 flex-wrap">
             <div className="flex">
               <svg
                 xmlns="http://www.w3.org/2000/svg"
@@ -145,6 +145,26 @@ export default function UserShow() {
             <p className="text-sm text-gray-500 py-2 pr-2">
               2007年3月からTwitterを利用しています
             </p>
+          </div>
+          <div className="flex pb-3">
+            <p className="font-semibold text-base pl-4">59.7万</p>
+            <p className=" text-gray-500 pl-1">フォロー中</p>
+            <p className="font-semibold text-base pl-4">1.2億</p>
+            <p className="text-gray-500 pl-1">フォロワー</p>
+          </div>
+          <div className="flex w-full">
+            <div className="p-2 md:p-4 w-3/12 hover:bg-blue-50 hover:text-blue-400 font-semibold cursor-pointer text-gray-500 text-base border-b-2 border-blue-400">
+              <p>ツイート</p>
+            </div>
+            <div className="p-2 md:p-4 w-4/12 hover:bg-blue-50 hover:text-blue-400 font-semibold cursor-pointer text-gray-500 text-base">
+              <p>ツイートと返信</p>
+            </div>
+            <div className="p-2 md:p-4 w-3/12 hover:bg-blue-50 hover:text-blue-400 font-semibold cursor-pointer text-gray-500 text-base">
+              <p>メディア</p>
+            </div>
+            <div className="p-2 md:p-4 w-3/12 hover:bg-blue-50 hover:text-blue-400 font-semibold cursor-pointer text-gray-500 text-base">
+              <p>いいね</p>
+            </div>
           </div>
           <div className="h-auto border-b-2"></div>
           <Card></Card>

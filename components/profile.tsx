@@ -20,8 +20,8 @@ const Profile = () => (
           </svg>
         </Link>
         <div className="text-left ml-6">
-          <h3 className="text-xl font-extrabold">SHA256</h3>
-          <p className="font-light opacity-50 leading-5">440件のツイート</p>
+          <h3 className="text-xl font-extrabold">Barack Obama</h3>
+          <p className="font-light opacity-50 leading-5">1.6万件のツイート</p>
         </div>
       </div>
     </div>
