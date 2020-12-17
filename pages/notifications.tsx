@@ -12,7 +12,7 @@ export default function Notification() {
       <Sidebar></Sidebar>
       <div className="max-w-screen-sm w-full border-l border-r overflow-scroll">
         <NotificateHeader></NotificateHeader>
-        <div className="mt-32">
+        <div className="mt-28 md:mt-32">
           <div className="h-auto text-sm text-left block">
             {/* TODO: トレンド一覧 */}
             {array.map((_) => (

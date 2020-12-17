@@ -26,7 +26,7 @@ export default function Sidebar() {
       setBookmark(Boolean(true));
     } else if (urlParams == "/userr/lists") {
       setLists(Boolean(true));
-    } else if (urlParams == "/userr") {
+    } else if (urlParams == "/BarackObama") {
       setUser(Boolean(true));
     }
   }, [router]);
