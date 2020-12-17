@@ -92,7 +92,7 @@ export default function Home() {
                 />
               </svg>
               <button
-                className="bg-blue-400 text-white font-semibold text-md p-2 rounded-3xl disabled:opacity-60 w-32 absolute right-1 pointer-events-none"
+                className="bg-blue-400 text-white font-semibold text-md p-2 rounded-3xl disabled:opacity-60 w-32 absolute right-1 pointer-events-none hidden sm:block"
                 disabled
               >
                 ツイートする

@@ -1,7 +1,7 @@
 import Link from "next/link";
 
 const Card = () => (
-  <div className="flex container p-4 border-b hover:bg-gray-100 cursor-pointer">
+  <div className="flex container p-4 border-b hover:bg-gray-100 cursor-pointer min-w-min">
     <img
       src="https://pbs.twimg.com/profile_images/1329647526807543809/2SGvnHYV_400x400.jpg"
       className="w-10 h-10 rounded-full mr-2"
@@ -12,7 +12,7 @@ const Card = () => (
         <Link href="/BarackObama">
           <h3 className="font-bold mr-1">Barack Obama</h3>
         </Link>
-        <h3 className="font-md text-gray-500">@BarackObama</h3>
+        <h3 className="font-md text-gray-500 hidden sm:block">@BarackObama</h3>
         <h3 className="font-thin text-gray-500">・ 19時間</h3>
         <svg
           xmlns="http://www.w3.org/2000/svg"
@@ -28,7 +28,7 @@ const Card = () => (
           />
         </svg>
       </div>
-      <p className="text-left">
+      <p className="text-left min-w-min">
         With COVID-19 cases reaching an all-time high this week, we've got to
         continue to do our part to protect one another. This pandemic is far
         from over and your actions can help save lives.
@@ -49,7 +49,9 @@ const Card = () => (
               d="M8 12h.01M12 12h.01M16 12h.01M21 12c0 4.418-4.03 8-9 8a9.863 9.863 0 01-4.255-.949L3 20l1.395-3.72C3.512 15.042 3 13.574 3 12c0-4.418 4.03-8 9-8s9 3.582 9 8z"
             />
           </svg>
-          <p className="opacity-50 text-sm leading-8 ml-1">1,356</p>
+          <p className="opacity-50 text-sm leading-8 ml-1 hidden sm:block">
+            1,356
+          </p>
         </div>
         <div className="retweet flex mr-7">
           <svg
@@ -65,7 +67,9 @@ const Card = () => (
               d="M4 4v5h.582m15.356 2A8.001 8.001 0 004.582 9m0 0H9m11 11v-5h-.581m0 0a8.003 8.003 0 01-15.357-2m15.357 2H15"
             />
           </svg>
-          <p className="opacity-50 text-sm leading-8 ml-1">9,300</p>
+          <p className="opacity-50 text-sm leading-8 ml-1 hidden sm:block">
+            9,300
+          </p>
         </div>
         <div className="heart flex mr-7">
           <svg
@@ -81,7 +85,9 @@ const Card = () => (
               d="M4.318 6.318a4.5 4.5 0 000 6.364L12 20.364l7.682-7.682a4.5 4.5 0 00-6.364-6.364L12 7.636l-1.318-1.318a4.5 4.5 0 00-6.364 0z"
             />
           </svg>
-          <p className="opacity-50 text-sm leading-8 ml-1">3万</p>
+          <p className="opacity-50 text-sm leading-8 ml-1 hidden sm:block">
+            3万
+          </p>
         </div>
         <svg
           xmlns="http://www.w3.org/2000/svg"
