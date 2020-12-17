@@ -59,9 +59,7 @@ export default function UserShow() {
           </div>
           <div className="text-left px-4 pt-4">
             <h3 className="font-bold text-lg">Barack Obama</h3>
-            <h3 className="font-normal text-base text-gray-500">
-              @BarackObama
-            </h3>
+            <h3 className="font-normal text-base text-gray-500">@{user}</h3>
             <p className="pt-3 pb-0">Dad, husband, President, citizen.</p>
           </div>
           <div className="flex px-4 flex-wrap">
@@ -183,16 +181,37 @@ export default function UserShow() {
     );
   } else {
     return (
-      <div className="flex">
+      <div className="flex justify-center h-screen w-screen">
         <Sidebar></Sidebar>
         <div className="home-content text-center container border-l border-r max-w-screen-sm w-full max-h-screen overflow-scroll">
           <Profile></Profile>
+          <div className="border-b">
+            <div className="mt-14">
+              <div className="w-full bg-gray-300 h-44"></div>
+            </div>
+            <div className="relative">
+              <div className="w-32 h-32 bg-white rounded-full absolute -top-16 left-4">
+                <div className="w-32 h-32 rounded-full text-left bg-gray-200 border-4 border-white">
+                  {""}
+                </div>
+              </div>
+            </div>
+            <div className="m-6 text-left pt-10">
+              <h3 className="font-bold text-lg">@{user}</h3>
+            </div>
+          </div>
           <div className="text-center">
-            <h3 className="font-bold text-2xl">このアカウントは存在しません</h3>
-            <p className="font-normal">
+            <h3 className="font-bold text-xl mt-10">
+              このアカウントは存在しません
+            </h3>
+            <p className="font-normal text-gray-500 mt-2">
               キーワードを変えて検索してみてください。
             </p>
           </div>
+        </div>
+        <div>
+          <Trend></Trend>
+          <Recommended></Recommended>
         </div>
       </div>
     );

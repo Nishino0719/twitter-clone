@@ -272,7 +272,7 @@ export default function Sidebar() {
           )}
         </div>
       </Link>
-      <Link href="/userr">
+      <Link href="/BarackObama">
         <div className="user side-bar__content">
           {user ? (
             <svg
