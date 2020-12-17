@@ -16,6 +16,7 @@ export default function Notification() {
           <div className="h-auto text-sm text-left block">
             {/* TODO: トレンド一覧 */}
             {array.map((_) => (
+              // keyの指定
               <Card></Card>
             ))}
           </div>
