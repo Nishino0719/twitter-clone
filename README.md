@@ -1,5 +1,11 @@
 This is a [Next.js](https://nextjs.org/) project bootstrapped with [`create-next-app`](https://github.com/vercel/next.js/tree/canary/packages/create-next-app).
 
+## Twitter Clone Image
+![image](https://user-images.githubusercontent.com/55534054/102619985-a41e4a80-4180-11eb-9870-6631610f752d.png)
+
+![image](https://user-images.githubusercontent.com/55534054/102620699-c19fe400-4181-11eb-9d7a-dcc55527829e.png)
+
+
 ## Getting Started
 
 First, run the development server:
