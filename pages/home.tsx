@@ -13,7 +13,7 @@ export default function Home() {
 
         <div className="border-b flex p-3 h-44 mt-14">
           <img
-            src="https://pbs.twimg.com/profile_images/1238812638387163136/xVj9-uVR_400x400.jpg"
+            src="https://pbs.twimg.com/profile_images/1329647526807543809/2SGvnHYV_400x400.jpg"
             className="w-12 h-12 rounded-full"
             alt=""
           />
